@@ -29,5 +29,11 @@ const reduceToAllTrue= function(sourceArray){
   return result;
 }
 const reduceToAnyTrue= function(sourceArray){
-  
+  let result= false;
+  sourceArray.forEach(e=>{
+    if(e==true){
+      result = true;
+    }
+  });
+  return result;
 }
