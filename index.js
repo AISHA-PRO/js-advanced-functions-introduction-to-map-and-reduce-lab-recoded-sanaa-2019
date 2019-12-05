@@ -12,7 +12,7 @@ const mapToDouble = function(sourceArray){
   return arr;
 }
 const mapToSquare = function(sourceArray){
-   let arr = sourceArray.map(e=>4*e);
+   let arr = sourceArray.map(e=>2**e);
   return arr;
 }
 
